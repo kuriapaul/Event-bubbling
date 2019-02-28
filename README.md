@@ -2,9 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
 
-# Instalation
-1. Run `npm install`
-2. Run `ng serve`
+# Installation
+1. cd to project directory
+2. Run `npm install`
+3. Run `ng serve`
 
 ## Development server
 
