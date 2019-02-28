@@ -5,6 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
-  title = 'Eventbubbling';
+
+  parentClicked() {
+    alert('Div clicked');
+  }
+
+  childClicked() {
+   
+    alert('Button clicked');
+  }
 }
