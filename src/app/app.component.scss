@@ -1,7 +1,10 @@
-.box{
-    border:1px solid black;
-    max-width: 10%;
+.parent {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border: solid 3px black;
 }
-button{
-margin: 10px
+
+.child {
+  margin: 80px 80px;
 }

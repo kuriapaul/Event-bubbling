@@ -1,5 +1,5 @@
-<h3>Stop Event bubbling using a directive</h3>
-<div class="box" (click)="parentClicked($events)">
- <button (click)="childClicked($events)" appClickStopPropagation >Click</button>
+<div appStopEventBubbling class="parent" (click)="parentClicked($event)">
+  <button appStopEventBubbling class="child" (click)="childClicked($event)">
+    Button
+  </button>
 </div>
-<router-outlet></router-outlet>

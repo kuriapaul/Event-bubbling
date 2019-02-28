@@ -5,15 +5,22 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-
 export class AppComponent {
+  title = 'angular-directives';
 
-  parentClicked() {
-    alert('Div clicked');
+  /**
+   * Parent div click event handler for
+   * @param - event
+   */
+  parentClicked(event: any) {
+    alert(`Div clicked!`);
   }
 
-  childClicked() {
-   
-    alert('Button clicked');
+  /**
+   *
+   * @param event - click event
+   */
+  childClicked(event: any) {
+    alert(`Button clicked!`);
   }
 }
